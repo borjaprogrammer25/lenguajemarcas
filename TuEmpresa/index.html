@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="description" content="Restaurante La Pericana, restaurante situado en el centro de alcoy. Cocina de mercado y producto fresco.">
+    <meta name="author" content="Borja">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <title>Restaurante La Pericana</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurante La Pericana</h1>
+    </header>
+    <main>
+        <img src="assets/img/restaurante-la-pericana.jpg" alt="Restaurante la pericana en Alcoy" title="Restaurante la pericana en Alcoy" width="100%">
+        <p></p>
+        <a href="http://restaurante-lapericana.es" target="_blank">Visita nuestra pagina web</a>
+        <p></p>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Datos de Forulario</legend>
+                    <label>Nombre:
+                        <input type="text" placeholder="Tu nombre" required>
+                        <p></p>
+                    </label>
+                    <label>Email:
+                        <input type="email" placeholder="Tu email">
+                        <p></p>
+                    </label>
+                    <label>Teléfono:
+                        <input type="tel" placeholder="Tu movil" required>
+                        <p></p>
+                    </label>
+                    <label>Fecha de Naciemiento:
+                        <input type="date">
+                        <p></p>
+                    </label>
+                    <label>Nombre:
+                        <input type="text" placeholder="Escribe tu nombre" required>
+                        <p></p>
+                    </label>
+                <fieldset>
+                    <legend>Eres Cliente del restaurante</legend>
+                    <input type="radio" name="clienteRestaurante" value="moreno" checked>
+                    <label>Si</label>
+                    <input type="radio" name="clienteRestaurante" value="rubio">
+                    <label>No</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Comida preferida</legend>
+                    <input type="checkbox" name="comida-preferida" value="mediterranea">
+                    <label>Mediterranea</label>
+                    <input type="checkbox" name="comida-preferida" value="oriental">
+                    <label>Oriental</label>
+                    <input type="checkbox" name="comida-preferida" value="arabe">
+                    <label>Arabe</label>
+                    <input type="checkbox" name="comida-preferida" value="fast-food">                    
+                    <label>Fast Food</label>
+                </fieldset>
+                <p></p>
+                <label>Cual de estas opciones valores más en un restaurante</label>
+                <select name="variedad">
+                    <option value="sinSele">-------</option>
+                    <option value="comida">Comida</option>
+                    <option value="vino">Vino</option>
+                    <option value="servicio">Servicio</option>
+                    <option value="ambiente">Ambiente</option>
+                </select>
+                <p></p>
+                <label>Deja algun comentario:
+                    <p></p>
+                    <textarea rows="5" cols="33">Deja un comentario....</textarea>
+                </label>
+                </fieldset>    
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Calle Joan Canto 6, Alcoy(Alicante)</p>
+        <p>96 599 63 20 · 641 83 06 34</p>
+    </footer>
+</body>
+</html>
